@@ -8,10 +8,10 @@ if ( userInput === "burrito" ) {
 */
 
 let userInput;
-userInput = prompt("do you want to sleep?", "Type your answer here.");
+userInput = prompt("are you tired?", "Type your answer here.");
 if ( userInput === "yes" ) [
   $("#response").html("me too!");
   } else {
-    $("#response").html("you need it, ugly.");
+    $("#response").html("oh you look tired guess your just ugly.");
   }
 

@@ -12,6 +12,6 @@ userInput = prompt("are you tired?", "Type your answer here.");
 if ( userInput === "yes" ) [
   $("#response").html("me too!");
   } else {
-    $("#response").html("oh you look tired guess your just ugly.");
+    $("#response").html("oh you look tired, guess you're just ugly.");
   }
 

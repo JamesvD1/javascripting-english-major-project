@@ -53,4 +53,3 @@ circle = L.circle(bobstLibrary,          {radius: 100,
                                           opacity: 0.9,
                                           fillOpacity: 0.20}
           ).addTo(firstMap);
-l

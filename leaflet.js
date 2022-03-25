@@ -41,3 +41,14 @@ thousandth = [[washingtonSquarePark.lat + 0.001, washingtonSquarePark.lng + 0.00
 thousandthPolyline = L.polyline(thousandth, {color: "#d33682"}
                       ).addTo(firstMap);
 */
+let washingtonSquarePark, washingtonSquareParkMarker;
+let tenThousandth, tenThousandthPolygon, thousandth, thousandthPolyline;
+washingtonSquarePark = L.latLng(40.730833, -73.9975);
+washingtonSquareParkMarker = L.marker(washingtonSquarePark).addTo(firstMap);
+tenThousandth = [[40.7307, -73.9976], [40.7307, -73.9974], 
+                 [40.7309, -73.9974], [40.7309, -73.9976]];
+tenThousandthPolygon = L.polygon(tenThousandth, {
+                                  color: "#268bd2",
+                                  fillColor: "#fdf6e3"
+                                }
+                        ).addTo(firstMap);

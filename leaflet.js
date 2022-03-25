@@ -35,7 +35,7 @@ tenThousandthPolygon = L.polygon(tenThousandth, {
                                 }
                         ).addTo(firstMap);
 */
-let washingtonSquarePark, washingtonSquareParkMarker, bobstLibrary, bobstLibraryMarker, waverlyPlace, waverlyPlaceMarker;
+let washingtonSquarePark, washingtonSquareParkMarker, bobstLibrary, bobstLibraryMarker ;
 washingtonSquarePark = L.latLng(40.730833, -73.9975);
 washingtonSquareParkMarker = L.marker(washingtonSquarePark).bindPopup("This is Washington Square Park.").addTo(firstMap);
 bobstLibrary = L.latLng(40.729444, -73.997222);

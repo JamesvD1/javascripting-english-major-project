@@ -1,5 +1,3 @@
-let firstMap;
-firstMap = L.map("first-map");
 let firstMap, tileLayer;
 firstMap = L.map("first-map");
 tileLayer =
@@ -10,4 +8,3 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
     });
 tileLayer.addTo(firstMap);
 firstMap.setView([40.730833, -73.9975], 16);
-

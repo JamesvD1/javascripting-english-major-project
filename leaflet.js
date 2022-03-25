@@ -40,8 +40,6 @@ washingtonSquarePark = L.latLng(40.730833, -73.9975);
 washingtonSquareParkMarker = L.marker(washingtonSquarePark).bindPopup("This is Washington Square Park.").addTo(firstMap);
 bobstLibrary = L.latLng(40.729444, -73.997222);
 bobstLibraryMarker = L.marker(bobstLibrary).bindPopup("This is Bobst Library.").addTo(firstMap);
-waverlyPlace = L.latLng(40.7344954, -74.0035869);
-waverlyPlaceMarker = L.marker(waverlyPlace).bindPopup("I added another point, fools.").addTo(firstMap);
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
                                          color: "EFBB24",
